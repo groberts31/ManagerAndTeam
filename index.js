@@ -9,3 +9,17 @@ var options = { format: 'Letter' };
 
 const readFileAsync = util.promisify(fs.readFile);
 
+class Profile {
+    constructor(){
+        this.name = "Profile";
+    }
+    askForInfo() {
+        return inquirer
+        .prompt([
+            {
+                message: "Enter your GitHub username:",
+                name: "username",    
+            }
+        ])
+    }
+}
