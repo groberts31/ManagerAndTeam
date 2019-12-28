@@ -1,0 +1,37 @@
+{
+  "name": "managerandteam",
+  "version": "1.0.0",
+  "description": "node to create manager and team html pages",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groberts31/ManagerAndTeam.git"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "author": "Greg Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/groberts31/ManagerAndTeam/issues"
+  },
+  "homepage": "https://github.com/groberts31/ManagerAndTeam#readme"
+}
